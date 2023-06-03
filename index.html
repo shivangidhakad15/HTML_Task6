@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <title>Task 6</title>
+</head>
+<style>
+h2{
+    color: blue;
+}
+div{
+    margin-left: 300px;
+}
+</style>
+<body>
+    <h1>Task 6</h1>
+    <div>
+        <h2>Registration from</h2>
+        <form>
+            <label for ="first_name">First Name: </label>
+            <input type="text" name="first_name" required>
+            <br><br>
+            <label for="last_name">Last Name:</label>
+            <input type="text" name="last_name" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" required>
+            <br><br>
+            <label for="gender">Gender: </label>
+            <input type="radio" name="gender" value="male" >Male
+            <input type="radio" name="gender" value="female" >Female
+            <br><br>
+            <label for="age">Age:</label>
+            <input type="number" name="age" min="18" max="99" required>
+            <br><br>
+            <label for="phone_number">Phone Number:</label>
+            <input type="tel" name="phone_number" required>
+            <br><br>
+            <label for="address">Address: </label>
+            <textarea name="address" rows="4" cols="50"></textarea>
+
+            <br><br>
+            <label for="state">State: </label>
+            <input type="text">
+            <br><br>
+            <label for="country">Country: </label>
+            <select name="country" required>
+                <option disabled selected value="">Choose your country</option>
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+            </select>
+            <br><br>
+            <label for="languages">Languages known</label>
+            <input type="checkbox" name="languages" value="english">English
+            <input type="checkbox" name="languages" value="kannada">Kannada
+            <input type="checkbox" name="languages" value="hindi">Hindi
+            <input type="checkbox" name="languages" value="telugu">Telugu
+            <br><br>
+            <input type="checkbox" name="declare" required>
+            <label for="declare">Hereby I declare all the given details are true</label>
+            <br><br>
+            <button> Register</button>
+        </form>
+    </div>
+</body>
+</html>
